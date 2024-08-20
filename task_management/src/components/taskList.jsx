@@ -1,7 +1,7 @@
 import React from 'react';
 import Task from './task';
 
-function TaskList({ tasks, deleteTask, updateTask }) {
+const TaskList = ({ tasks, deleteTask, updateTask }) => {
   return (
     <div className="task-list">
       {tasks.map((task, index) => (

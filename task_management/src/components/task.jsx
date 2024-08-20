@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Task({ task, deleteTask, updateTask }) {
+const Task = ({ task, deleteTask, updateTask }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [newTitle, setNewTitle] = useState(task.title);
   const [newPriority, setNewPriority] = useState(task.priority);

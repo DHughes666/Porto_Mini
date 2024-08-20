@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TaskForm from './components/taskform';
 import TaskList from './components/taskList';
 
-function App() {
+const App = () => {
   const [tasks, setTasks] = useState([]);
 
   const addTask = (task) => {

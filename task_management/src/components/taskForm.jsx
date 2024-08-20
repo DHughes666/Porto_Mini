@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function TaskForm({ addTask }) {
+const TaskForm = ({ addTask }) => {
   const [title, setTitle] = useState('');
   const [priority, setPriority] = useState('Low');
 
